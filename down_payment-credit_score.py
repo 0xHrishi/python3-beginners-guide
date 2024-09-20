@@ -33,3 +33,59 @@ elif(len(price)>0) and (len(credit_score)>0):
         print("Bad credit score")                                                   
         print("Re-apply in next 6 months")                                          
         print("*"*30) 
+--------------------------------------------------------------------------------------------------------------------------------------
+#!/usr/bin/python3
+
+total=input("Enter the total cost of the house\n")
+credit=input("Enter the Credit score\n")
+
+if (len(total)<=0) or (len(credit)<=0):
+    if (len(total)>0) and (len(credit)<=0):
+        print("*" *20)
+        print("Credit score field is empty")
+    elif (len(total)<=0) and (len(credit)>0):
+        print("*" *20)
+        print("Total cost of the house field is empty")
+    elif (len(total)<=0) and (len(credit)<=0):
+        print("*" *20)
+        print("Total cost of the house field is empty")
+        print("Credit score field is empty")
+    else:
+        print("*" *20)
+        print("Issues with the user input")
+elif (len(total)>0) and (len(credit)>0):
+    if not total.isdigit() or not credit.isdigit():
+        if total.isdigit() and not credit.isdigit():
+            print("*" *20)
+            print("Credit score must contain only numeric digits")
+        elif not total.isdigit() and credit.isdigit():
+            print("*" *20)
+            print("Total cost of the house must contain only numeric digits")
+        elif not total.isdigit() and not credit.isdigit():
+            print("*" *20)
+            print("Total cost of the house must contain only numeric digits")
+            print("Credit score must contain only numeric digits")
+        else:
+            print("*" *20)
+            print("Issues with user input validation")
+    elif total.isdigit() and credit.isdigit():
+        if (int(credit)>=750):
+            ans=int(total)*10/100
+            print("*" *20)
+            print("Total cost of the house " + str(total))
+            print("Credit score " + str(credit))
+            print("Down payment require " + str(ans))
+        elif (int(credit)>=650) and (int(credit)<=749):
+            ans=int(total)*20/100
+            print("*" *20)
+            print("Total cost of the house " + str(total))
+            print("Credit score " + str(credit))
+            print("Down payment require " + str(ans))
+        elif (int(credit)>=600) and (int(credit)<=649):
+            ans=int(total)*30/100
+            print("*" *20)
+            print("Total cost of the house " + str(total))
+            print("Credit score " + str(credit))
+            print("Down payment require " + str(ans))
+        else:
+            print("Cannot process this application")
