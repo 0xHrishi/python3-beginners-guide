@@ -18,3 +18,20 @@ elif (len(domain_name)>0) and (len(name_server)>0):
     print("*"*30)
     print(zone_transfer.stdout)
     print("*"*30)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#!/usr/bin/python3
+
+import subprocess
+
+domain=input("Enter the domain name\n")
+
+if (len(domain)==0):
+    print("*"*50)
+    print("Domain field empty")
+else:
+    print("*******Checking for DNS Servers*******")
+    name_servers=subprocess.run(["host", "-t", "ns", domain],capture_output=True,text=True)
+    print(name_servers.stdout)
+    zone_transfers=input("Enter the DNS servers name for zone file transfer:\n")
+    zone_file=subprocess.run(["host", "-l", domain, zone_transfers])
+    print(zone_file.stdout)
