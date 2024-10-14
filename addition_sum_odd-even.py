@@ -40,50 +40,45 @@ elif (len(f_number)>0) and (len(s_number)>0):
 first=input("Enter the first number\n")
 second=input("Enter the second number\n")
 
-
-if (len(first)<=0) or (len(second)<=0):
-    if (len(first)>0) and (len(second)<=0):
-        print ("*"*20)
+if (len(first)==0) or (len(second)==0):
+    if (len(first)>0) and (len(second)==0):
+        print("*"*50)
         print("Second number field is empty")
-    elif (len(first)<=0) and (len(second)>0):
-        print ("*"*20)
+    elif (len(first)==0) and (len(second)>0):
+        print("*"*50)
         print("First number field is empty")
-    elif (len(first)<=0) and (len(second)<=0):
-        print ("*"*20)
+    elif (len(first)==0) and (len(second)==0):
+        print("*"*50)
         print("First number field is empty")
         print("Second number field is empty")
     else:
-        print ("*"*20)
+        print("*"*50)
         print("Issues with the user input")
-
-
 elif (len(first)>0) and (len(second)>0):
     if not first.isdigit() or not second.isdigit():
         if first.isdigit() and not second.isdigit():
-            print ("*"*20)
-            print ("Second number field must contain only numeric digits")
+            print("*"*50)
+            print("Second number field must contain in numeric digits")
         elif not first.isdigit() and second.isdigit():
-            print ("*"*20)
-            print ("First number field must contain only numeric digits")
+            print("*"*50)
+            print("First number field must contain in numeric digits")
         elif not first.isdigit() and not second.isdigit():
-            print ("*"*20)
-            print ("First number field must contain only numeric digits")
-            print ("Second number field must contain only numeric digits")
+            print("*"*50)
+            print("First number field must contain in numeric digits")
+            print("Second number field must contain in numeric digits")
         else:
-            print ("*"*20)
+            print("*"*50)
             print("Issues with the user input validation")
     elif first.isdigit() and second.isdigit():
-        ans=int(first)+int(second)
+        ans=(int(first)+int(second))
         if (int(ans)%2==0):
-            print ("*"*20)
-            print(str(first) + " plus " + str(second) + " is " + str(ans))
-            print("Result is an " + str(ans) + " even number")
+            print("*"*50)
+            print(f"{first} plus {second} --> {ans}")
+            print(f"Result is {ans} --> even number")
         elif (int(ans)%2!=0):
-            print ("*"*20)
-            print(str(first) + " plus " + str(second) + " is " + str(ans))
-            print("Result is an " + str(ans) + " odd number")
+            print("*"*50)
+            print(f"{first} plus {second} --> {ans}")
+            print(f"Result is {ans} --> odd number")
         else:
-            print ("*"*20)
-            print ("Issues with calculation")
-
-
+            print("*"*50)
+            print("Issues with calculation")
