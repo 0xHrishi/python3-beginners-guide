@@ -1,84 +1,62 @@
-#!/usr/bin/python3
-#Python3 script 
-#2 number from user, add those numbers and check the sum whether its odd or even
+#!/usr/bin/python
 
-#!/usr/bin/python3
+#script to add two numbers i.e. first_number and second_number 
+#result is odd or even 
 
-f_number=input("Enter the first number -->\n")
-s_number=input("Enter the second number -->\n")
+#user input 
+first_number=input("Enter the first number:\n")
+second_number=input("Enter the second number:\n")
 
-if (len(f_number)<=0) or (len(s_number)<=0):
-    if (len(f_number)>0) and (len(s_number)<=0):
-        print("*"*40)
+#function
+def lines():
+    print("*"*30)
+
+#Check the user input is empty and if yes, display error message
+if (len(first_number)==0) or (len(second_number)==0):
+    if (len(first_number)>0) and (len(second_number)==0):
+        lines()
         print("Second number field is empty")
-    elif (len(f_number)<=0) and (len(s_number)>0):
-        print("*"*40)
+    elif (len(first_number)==0) and (len(second_number)>0):
+        lines()
         print("First number field is empty")
-    elif (len(f_number)<=0) and (len(s_number)<=0):
-        print("*"*40)
-        print("User input field is missing")
-    else:
-        print("*"*40)
-        print("Something went wrong")
-
-elif (len(f_number)>0) and (len(s_number)>0):
-        print("*"*40)
-        print("First number is -->" + f_number)
-        print("Second number is -->" + s_number)
-        ans=int(f_number)+int(s_number)
-        if (int(ans%2==0)):
-            print("Additon of " + f_number + " and " + s_number + " is " + str(ans))
-            print("Result is even number")
-        elif (int(ans%2!=0)):
-            print("Additon of " + f_number + " and " + s_number +  " is " + str(ans))
-            print("Result is odd number")
-        else:
-            print("SOmething went wrong")
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-#!/usr/bin/python3
-
-first=input("Enter the first number\n")
-second=input("Enter the second number\n")
-
-if (len(first)==0) or (len(second)==0):
-    if (len(first)>0) and (len(second)==0):
-        print("*"*50)
-        print("Second number field is empty")
-    elif (len(first)==0) and (len(second)>0):
-        print("*"*50)
-        print("First number field is empty")
-    elif (len(first)==0) and (len(second)==0):
-        print("*"*50)
+    elif (len(first_number)==0) and (len(second_number)==0):
+        lines()
         print("First number field is empty")
         print("Second number field is empty")
     else:
-        print("*"*50)
-        print("Issues with the user input")
-elif (len(first)>0) and (len(second)>0):
-    if not first.isdigit() or not second.isdigit():
-        if first.isdigit() and not second.isdigit():
-            print("*"*50)
-            print("Second number field must contain in numeric digits")
-        elif not first.isdigit() and second.isdigit():
-            print("*"*50)
-            print("First number field must contain in numeric digits")
-        elif not first.isdigit() and not second.isdigit():
-            print("*"*50)
-            print("First number field must contain in numeric digits")
-            print("Second number field must contain in numeric digits")
+        lines()
+        print("Issues with user input")
+
+#user input is not empty
+elif (len(first_number)>0) and (len(second_number)>0):
+
+    #Check user input must contain only numeric values no alphabets
+    if not first_number.isdigit() or not second_number.isdigit():
+        if first_number.isdigit() and not second_number.isdigit():
+            lines()
+            print("Second number field must contain only numeric values")
+        elif not first_number.isdigit() and second_number.isdigit():
+            lines()
+            print("First number field must contain only numeric values")
+        elif not first_number.isdigit() and not second_number.isdigit():
+            lines()
+            print("First number field must contain only numeric values")
+            print("Second number field must contain only numeric values")
         else:
-            print("*"*50)
+            lines()
             print("Issues with the user input validation")
-    elif first.isdigit() and second.isdigit():
-        ans=(int(first)+int(second))
-        if (int(ans)%2==0):
-            print("*"*50)
-            print(f"{first} plus {second} --> {ans}")
-            print(f"Result is {ans} --> even number")
-        elif (int(ans)%2!=0):
-            print("*"*50)
-            print(f"{first} plus {second} --> {ans}")
-            print(f"Result is {ans} --> odd number")
+
+    #user input contain only numeric values
+    elif first_number.isdigit() and second_number.isdigit():
+        sum=int(first_number)+int(second_number)
+        if (int(sum)%2==0):
+            lines()
+            print(f"Additon of {first_number} and {second_number} --> {sum}")
+            print(f"{sum} --> Even number")
+        elif (int(sum)%2!=0):
+            lines()
+            print(f"Additon of {first_number} and {second_number} --> {sum}")
+            print(f"{sum} --> Odd number")
         else:
-            print("*"*50)
+            lines()
             print("Issues with calculation")
