@@ -40,4 +40,4 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Basics
 📌 Example 1: Hello World --> Click here to view the full script: [hello world.py](<hello world.py>)  
-📌 Example 1: Single and multi lines comments --> Click here to view the full script: [comments.py](<comments.py>)
+📌 Example 2: Single and multi lines comments --> Click here to view the full script: [comments.py](<comments.py>)
