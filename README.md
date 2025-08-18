@@ -1,4 +1,4 @@
-# 🐍 Python Project: Learn by Example
+# 🐍 Python
 
 Welcome! 🚀  
 This repository is designed for **beginners** who want to learn Python by exploring simple and well-documented code examples.  
