@@ -29,6 +29,7 @@ chmod +x script_name.py
 # 💻 PyCharm IDE
 Shift + F10   # Runs the script inside the IDE
 
+``` bash
 ---
 
 ## 📌 Features
