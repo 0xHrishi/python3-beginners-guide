@@ -15,4 +15,7 @@ For installation, please check resources like YouTube or official documentation.
 - Covers basics like variables, loops, functions, and more  
 - Ready-to-run examples
 
+- ## 📂 Examples by Topic
+
+### 🔰 Basics
 📌 Example 1: Hello World --> Click here to view the full script: [hello world.py](<hello world.py>)
