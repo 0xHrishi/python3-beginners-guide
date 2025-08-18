@@ -18,5 +18,5 @@ For installation, please check resources like YouTube or official documentation.
 - ## 📂 Examples by Topic
 
 ### 🔰 Basics
-📌 Example 1: Hello World --> Click here to view the full script: [hello world.py](<hello world.py>)
+📌 Example 1: Hello World --> Click here to view the full script: [hello world.py](<hello world.py>)  
 📌 Example 1: Single and multi lines comments --> Click here to view the full script: [comments.py](<comments.py>)
