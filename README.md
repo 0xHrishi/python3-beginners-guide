@@ -7,11 +7,10 @@ This repository is designed for **beginners** who want to learn Python by explor
 It does **not** cover the installation of Python or PyCharm IDE.  
 For installation, please check resources like YouTube or official documentation. 
 
-This project contains a Python script that can be executed on different platforms.  
-Follow the instructions below to run it.  
 
 ---
-
+This project contains a Python script that can be executed on different platforms.  
+Follow the instructions below to run it.  
 ## 🚀 How to Run
 
 You can run the script in **Windows (🪟 Command Prompt)**, **Linux / Kali / macOS (🐧)**, or directly in an **IDE (💻 PyCharm)**:
