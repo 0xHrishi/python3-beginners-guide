@@ -8,6 +8,12 @@ It does **not** cover the installation of Python or PyCharm IDE.
 For installation, please check resources like YouTube or official documentation. 
 
 
+## 📌 Features
+- Beginner-friendly Python scripts 📝  
+- Clear explanations with comments 🔰  
+- Covers basics like variables, loops, functions, and more  
+- Ready-to-run examples
+  
 ---
 This project contains a Python script that can be executed on different platforms.  
 Follow the instructions below to run it.  
@@ -29,12 +35,6 @@ chmod +x script_name.py
 Shift + F10   # Runs the script inside the IDE
 ```
 ---
-
-## 📌 Features
-- Beginner-friendly Python scripts 📝  
-- Clear explanations with comments 🔰  
-- Covers basics like variables, loops, functions, and more  
-- Ready-to-run examples
 
 - ## 📂 Examples by Topic
 
