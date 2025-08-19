@@ -46,8 +46,8 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Variables and Constant --> Click here to view the full script: [area_of_circle.py](<area_of_circle.py>)  
 📌 Example: Different Data types --> Click here to view the full script: [data_type.py](<data_type.py>)
 
-### 🔰 Variables and Constant 
-📌 Example: Strings, strings concatenation, formatted string and popular methodss --> Click here to view the full script: [strings.py](<strings.py>)  
+### 🔰 Strings and its popular methods
+📌 Example: Strings, strings concatenation, formatted string and popular methods --> Click here to view the full script: [strings.py](<strings.py>)  
 
 ### 🔰 Examples
 📌 Example: Budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
