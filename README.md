@@ -52,6 +52,7 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Operators --> Arithmetic
 📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<arithmetic_operators.py>)  
+📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<comparsion_operators.py>)  
 
 ### 🔰 Examples
 📌 Example: Budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
