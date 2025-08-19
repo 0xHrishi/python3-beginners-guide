@@ -44,3 +44,4 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Variables and Constant 
 📌 Example: Variables and Constant --> Click here to view the full script: [area_of_circle.py](<area_of_circle.py>)
+📌 Example: Variables and Constant --> Click here to view the full script: [data_type.py](<data_type.py>)
