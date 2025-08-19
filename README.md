@@ -50,6 +50,9 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Strings, strings concatenation, formatted string and popular methods --> Click here to view the full script: [strings.py](<strings.py>)  
 📌 Example: Email generator example, replace method  --> Click here to view the full script: [email_generator.py](<email_generator.py>)  
 
+### 🔰 Operators --> Arithmetic
+📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<arithmetic_operators.py>)  
+
 ### 🔰 Examples
 📌 Example: Budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
 📌 Example: Grocery Budget --> Click here to view the full script: [grocery_budget.py](<grocery_budget.py>)   
