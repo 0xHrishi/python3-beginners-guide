@@ -1,4 +1,5 @@
 #Python script to calculate the down payment for the house based upon the total cost and the credit score
+#Logical operators such as 'and', 'or', 'not'
 
 total_cost=int(input("Enter the total cost of the house\n"))
 credit_score=int(input("Enter the credit score\n"))
