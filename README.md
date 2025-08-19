@@ -43,4 +43,4 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Single and multi lines comments --> Click here to view the full script: [comments.py](<comments.py>)
 
 ### 🔰 Variables and Constant 
-📌 Example: Variables and constant --> Click here to view the full script: [area_of_circle.py](<area_of_circle.py>)
+📌 Example: Variables and Constant --> Click here to view the full script: [area_of_circle.py](<area_of_circle.py>)
