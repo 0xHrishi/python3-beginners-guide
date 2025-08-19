@@ -55,6 +55,9 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<comparsion_operators.py>)  
 📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<logical_operators.py>)
 
+### 🔰 Loops --> for and while 
+📌 Example: Display even or odd numbers --> Click here to view the full script: [even_odd.py](<even_odd.py>)  
+
 ### 🔰 Examples
 📌 Example: Budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
 📌 Example: Grocery Budget --> Click here to view the full script: [grocery_budget.py](<grocery_budget.py>)   
