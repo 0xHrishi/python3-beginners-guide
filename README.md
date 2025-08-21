@@ -47,7 +47,8 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Different Data types --> Click here to view the full script: [data_type.py](<data_type.py>)
 
 ### 🔰 Strings and its popular methods
-📌 Example: Strings, strings concatenation, formatted string and popular methods --> Click here to view the full script: [strings.py](<strings.py>)  
+📌 Example: Strings, strings concatenation and formatted string --> Click here to view the full script: [strings.py](<strings.py>)  
+📌 Example: Strings methods --> Click here to view the full script: [strings_methods.py](<strings_methods.py>)  
 📌 Example: Email generator example, replace method  --> Click here to view the full script: [email_generator.py](<email_generator.py>)  
 
 ### 🔰 Operators --> Arithmetic
