@@ -58,6 +58,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<comparsion_operators.py>)  
 📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<assignment_operators.py>)   
 📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<logical_operators.py>)
+📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<membership_operators.py>)
 
 ### 🔰 Statements 
 📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<if_if_else.py>)  
