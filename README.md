@@ -2,6 +2,7 @@
 
 Welcome! 🚀  
 This repository is designed for **beginners** who want to learn Python by exploring simple and well-documented code examples.  
+For detail Python scripts kindly check the examples.  
 
 ⚠️ **Note:** This repositories focuses only on **Python examples**.  
 It does **not** cover the installation of Python or PyCharm IDE.  
