@@ -67,7 +67,7 @@ Shift + F10   # Runs the script inside the IDE
 ### 🔰 Loops --> for and while 
 📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<for_loop.py>)  
 📌 Example: while loop --> Click here to view the full script: [while_loop.py](<while_loop.py>)  
-📌 Example: contunue and break --> Click here to view the full script: [continue_break.py](<continue_break.py>)  
+📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<continue_break.py>)  
 
 
 ### 🔰 Examples
