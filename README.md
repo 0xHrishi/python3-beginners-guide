@@ -51,7 +51,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Strings, strings concatenation and formatted string --> Click here to view the full script: [strings.py](<strings.py>)  
 📌 Example: Strings slicing--> Click here to view the full script: [string_slicing.py](<string_slicing.py>)  
 📌 Example: Strings methods --> Click here to view the full script: [string_methods.py](<string_methods.py>)  
-📌 Example: Email generator example, replace method  --> Click here to view the full script: [email_generator.py](<email_generator.py>)  
+📌 Example: Email generator example using replace method  --> Click here to view the full script: [email_generator.py](<email_generator.py>)  
 
 ### 🔰 Operators --> Arithmetic
 📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<arithmetic_operators.py>)  
