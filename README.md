@@ -53,11 +53,14 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Strings methods --> Click here to view the full script: [string_methods.py](<string_methods.py>)  
 📌 Example: Email generator example using replace method  --> Click here to view the full script: [email_generator.py](<email_generator.py>)  
 
-### 🔰 Operators --> Arithmetic
+### 🔰 Operators 
 📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<arithmetic_operators.py>)  
 📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<comparsion_operators.py>)  
 📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<assignment_operators.py>)   
 📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<logical_operators.py>)
+
+### 🔰 Statements 
+📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<if_if_else.py>)  
 
 ### 🔰 Loops --> for and while 
 📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [even_odd.py](<even_odd.py>)  
