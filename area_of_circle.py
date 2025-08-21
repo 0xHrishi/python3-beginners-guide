@@ -14,5 +14,4 @@ print(f"Area of circle --> {area_of_cicle}")
 print("*" * 70)
 #Multiple values
 first_number,second_number,third_number=10,20,30
-
 print(f"First number --> {first_number}, Second number --> {second_number}, Third number --> {third_number}")
