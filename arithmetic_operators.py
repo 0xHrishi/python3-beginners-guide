@@ -1,6 +1,9 @@
+#Arithmatic operators
+#User input as first and second number
 first_number=int(input("Enter the first number\n"))
 second_number=int(input("Enter the second number\n"))
 
+#Arithmatic operators --> addition, subtraction,multiplication, power, divide and remainder 
 add=first_number+second_number
 subtract=first_number-second_number
 multiply=first_number*second_number
