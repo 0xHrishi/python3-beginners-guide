@@ -1,14 +1,10 @@
-#This script is display the data type
-
-number=int(input("Enter your favourite number\n"))
+#user input
+first_number=int(input("Enter the first number\n"))
 full_name=input("Enter your full name\n")
-decimal_number=float(input("Enter any decimal value\n"))
+decimal_number=float(input("Enter the decimal number\n"))
 
-#Output the user input and display the data type
-print(f"Your favourite number is --> {number} and data type is {type(number)}")
-print(f"Your Full name is --> {number} and data type is {type(full_name)}")
-print(f"Decimal number is --> {number} and data type is {type(decimal_number)}")
-
-
-
+#Display the data type such as int, str,float
+print(f"First number is {first_number} and its data type --> {type(first_number)}")
+print(f"Full name is {full_name} and its data type --> {type(full_name)}")
+print(f"Decimal number is {decimal_number} and its data type --> {type(decimal_number)}")
 
