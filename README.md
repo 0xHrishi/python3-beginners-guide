@@ -56,7 +56,7 @@ Shift + F10   # Runs the script inside the IDE
 ### 🔰 Operators --> Arithmetic
 📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<arithmetic_operators.py>)  
 📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<comparsion_operators.py>)  
-📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<assignment_operators.py>) 
+📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<assignment_operators.py>)   
 📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<logical_operators.py>)
 
 ### 🔰 Loops --> for and while 
