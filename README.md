@@ -71,4 +71,5 @@ Shift + F10   # Runs the script inside the IDE
 ### 🔰 Examples
 📌 Example: Personal budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
 📌 Example: Temperature conversion --> Click here to view the full script: [temperature_conversion.py](<temperature_conversion.py>)   
+📌 Example: Attendance checker--> Click here to view the full script: [attendance_checker.py](<attendance_checker.py>)  
 
