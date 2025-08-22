@@ -70,7 +70,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<continue_break.py>)  
 
 ### 🔰 Functions
-📌 Example: Functions --> Click here to view the full script: [functions.py](<functions.py>)  
+📌 Example: Functions Parameterized and non Parameterized, Return value and lambda--> Click here to view the full script: [functions.py](<functions.py>)  
 
 
 ### 🔰 Examples
