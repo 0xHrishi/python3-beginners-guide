@@ -69,6 +69,9 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: while loop --> Click here to view the full script: [while_loop.py](<while_loop.py>)  
 📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<continue_break.py>)  
 
+### 🔰 Functions
+📌 Example: Functions --> Click here to view the full script: [functions.py](<functions.py>)  
+
 
 ### 🔰 Examples
 📌 Example: Personal budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
