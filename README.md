@@ -76,6 +76,8 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Lists and its popular methods --> Click here to view the full script: [lists.py](<lists.py>)  
 📌 Example: Shallow vs Deep copy --> Click here to view the full script: [deep_copy.py](<deep_copy.py>)  
 
+### 🔰 Sets
+📌 Example: Sets --> Click here to view the full script: [sets.py](<sets.py>)  
 
 ### 🔰 Examples
 📌 Example: Personal budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
