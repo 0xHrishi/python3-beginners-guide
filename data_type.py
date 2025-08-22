@@ -8,3 +8,8 @@ print(f"First number is {first_number} and its data type --> {type(first_number)
 print(f"Full name is {full_name} and its data type --> {type(full_name)}")
 print(f"Decimal number is {decimal_number} and its data type --> {type(decimal_number)}")
 
+#Lists
+details=["Hrishi", "Dilip", "Ghosalkar", 30, 40, 50]
+
+print(details)
+print(type(details))
