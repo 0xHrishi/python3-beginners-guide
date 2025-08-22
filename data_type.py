@@ -26,3 +26,9 @@ set={10,20,30}
 
 print(set)
 print(type(set))
+
+#frozen set
+set_1=frozenset({"a", "b"})
+print(set_1)
+print(type(set_1))
+
