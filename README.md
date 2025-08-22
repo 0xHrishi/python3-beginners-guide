@@ -74,6 +74,7 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Lists
 📌 Example: Lists and its popular methods --> Click here to view the full script: [lists.py](<lists.py>)  
+📌 Example: Shallow vs Deep copy --> Click here to view the full script: [deep_copy.py](<deep_copy.py>)  
 
 
 ### 🔰 Examples
