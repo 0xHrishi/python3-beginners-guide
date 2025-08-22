@@ -20,3 +20,9 @@ tuple=(1,2,3, "Hrishi", "Ghosalkar")
 
 print(tuple)
 print(type(tuple))
+
+#sets
+set={10,20,30}
+
+print(set)
+print(type(set))
