@@ -13,3 +13,10 @@ details=["Hrishi", "Dilip", "Ghosalkar", 30, 40, 50]
 
 print(details)
 print(type(details))
+
+#tuple
+
+tuple=(1,2,3, "Hrishi", "Ghosalkar")
+
+print(tuple)
+print(type(tuple))
