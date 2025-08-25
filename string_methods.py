@@ -1,4 +1,12 @@
 #Popular string methods
+#strip() --> removes extra space, lower() --> convert into lowercase
+#upper() --> Convert into uppercase, title() --> First letter on each word in capital
+#capitalize --> First letter in capital, islower() --> Check the string is in lowercase
+#is.upper() -> Check string is in upper case, is.title(), is.capitalize()
+#is.alpha() --> Check the string contain only aphabets, is.digit(), is.alnum 
+#startswith("abc"),endswith("abc")
+#repalce("old","new")
+
 
 full_name=input("Enter your full name\n")
 
