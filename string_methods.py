@@ -1,13 +1,22 @@
-#Popular string methods
-#strip() --> removes extra space, lower() --> convert the string lowercase
-#upper() --> Convert into string uppercase, title() --> First letter on each word in capital
-#capitalize --> First letter is capital, islower() --> Check the string is in lowercase
-#is.upper() -> Check string is in upper case, is.title() --> check the string is in title format
-#is.capitalize() --> Check the string is in capitalize format
-#is.alpha() --> Check the string contain only aphabets, is.digit() --> only digits , is.alnum --> alphabets and numbers 
-#startswith("abc"),endswith("abc") --> Helps the user to check whether the string starswith or endswith specific keyword 
-#repalce("old","new") --> replace the string
+#Popular string methods 
+#string.lower() --> Convert the string into lowercase 
+#string.upper() --> Convert the string into uppercase
+#string.title() --> First letter in each word 
+#string.capitalize() --> First letter capital 
+#string.repalce("old","new") --> Replace the string with a new word
+#string.find("Hri") --> Helps the user to find a keyword is present or not within specific string
+#string.split("@")[0] --> Spilt the string based upon the user specific word and display as per index
+#string.strip() --> Remove extra spaces 
+#string.lstrip() and string.rstrip() --> Removes extra spaces from left to right 
 
+#string.startswith() and string.endswith() --> Confirm whether the staring starts and ends with a specific keyword 
+
+#Verify string 
+#isupper() --> Check whether the string is in uppercase format
+#islower() --> Check whether the string is in lowercase format
+#isdigit() --> Check whether the string contains only nuemric values
+#isalnum --> Check whether string contains alphabets and numeric values
+#isalpha() --> String must contain only alphabets
 
 full_name=input("Enter your full name\n")
 
