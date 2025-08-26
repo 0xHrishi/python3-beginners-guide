@@ -65,4 +65,3 @@ if number.isdigit():
     print("Number is an integer")
 else:
     print("Number is not an integer")
-
