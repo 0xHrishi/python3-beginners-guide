@@ -1,20 +1,21 @@
-#Script to calculate area of the cirlce
+# ------------------------------------------------------------
+# Program: Calculate the Area of a Circle
+# Description:
+#     This program takes the radius of a circle as input from the user
+#     and calculates the area using the formula:
+#         Area = 3.14 × radius * radius
+# ------------------------------------------------------------
 
-#User input --> Enter the radius of the circle
-radius=float(input("Enter the radius of the circle\n"))
-#Constant
-PI=3.14
-#Calculate the area of circle
-area_of_cicle=PI*radius*radius
+#Ask the user to enter the radius of the circle
+radius = int(input("Enter the radius of the circle: "))
 
-#Display the output using formatted string
-print(f"Area of circle --> {area_of_cicle}")
+#constant 
+PI = 3.14 
 
-print("*" * 70)
-#Multiple values
-first_number,second_number,third_number=10,20,30
-print(f"First number --> {first_number}, Second number --> {second_number}, Third number --> {third_number}")
+# Calculate the area using the formula: π × r²
+area_of_circle = PI * radius * radius
 
-a=b=c=50
-print(f"First number --> {a}, Second number --> {b}, Third number --> {c}")
+print(f"Area of circle --> {area_of_circle:}")
 
+#Display the result, formatted to 2 decimal places
+print(f"Area of circle --> {area_of_circle:.2f}")
