@@ -1,20 +1,51 @@
-#variable first_number
-first_number=10
+# ------------------------------------------------------------
+# Program: Demonstrate Local vs Global Variables in Python
+# Description:
+#     This program demonstrates how Python handles variable scope.
+#     It shows the difference between:
+#         1. Local variables (defined inside a function)
+#         2. Global variables (declared outside or using 'global' keyword)
+# ------------------------------------------------------------
 
-#defined a function called numbers
-#global variable: first_number
-def numbers ():
-    global first_number
-    first_number=20
+# Example 1: Local Variable
 
-    #local variable which can be used within the function
-    #If used outside the function, python will display an error
-    second_number=20
-    print(f"Value of second number within function --> {second_number}")
+#Gloval variable i.e. number_1
+number_1 = 10 
 
-#value of first number will be 10, why becuase the function has not been called
-print(f"First number before function called --> {first_number}")
-#function called
-numbers()
-#value of first number changes from 10 to 20. 
-print(f"First number after function called -> {first_number}")
+def numbers_1():
+    # Local variable (only exists inside this function)
+    number_1 = 20
+    print(f"Within the function --> Value of number is {number_1}")
+
+# Call the function
+numbers_1()
+
+# The global variable 'number_1' remains unchanged
+print(f"Outside the function --> Value of number is {number_1}")
+
+ # Separator for clarity
+print("*" * 50)
+
+
+# Example 2: Global Variable
+# global keyword --  tells Python to use the global variable as it Modifies the global variable
+number_2 = 30  
+def numbers_2():
+    global number_2  
+    number_2 = 40  
+    print(f"Within the function --> Value of number is {number_2}")
+
+# Call the function
+numbers_2()
+
+# The global variable 'number_2' has been updated by the function
+print(f"Outside the function --> Value of number is {number_2}")
+
+# ------------------------------------------------------------
+# 🧠 OUTPUT EXAMPLE:
+# Within the function --> Value of number is 20
+# Outside the function --> Value of number is 10
+# **************************************************
+# Within the function --> Value of number is 40
+# Outside the function --> Value of number is 40
+# ------------------------------------------------------------
