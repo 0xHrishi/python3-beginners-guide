@@ -1,19 +1,28 @@
-#Script for budget calculator
-#Total income --> user input
-total_income=float(input("Enter the total income\n"))
+# ------------------------------------------------------------
+# Program: Monthly Expense and Savings Calculator
+# Description:
+#     This program takes the user's total income and expenses 
+#     (rent, groceries, transport, utilities, and extras)
+#     then calculates total expenses and monthly savings.
+# ------------------------------------------------------------
 
-#Costs
-rent_cost=float(input("Enter the rent cost\n"))
-groceries_cost=float(input("Enter the groceries cost\n"))
-transport_cost=float(input("Enter the transport cost\n"))
-utilies_cost=float(input("Enter the utilies cost\n"))
-extra_cost=float(input("Enter the extra cost\n"))
+#Take user inputs
+total_income = float(input("Enter the total income: "))
 
-#total cost 
-total_expenses=rent_cost+groceries_cost+transport_cost+utilies_cost+extra_cost
-#remaining after income cost - total expenses
-remaining_budget=total_income-total_expenses
+rent_cost = float(input("Enter the rent cost: "))
+groceries_cost = float(input("Enter the groceries cost: "))
+transport_cost = float(input("Enter the transport cost: "))
+utilities_cost = float(input("Enter the utilities cost: "))
+extra_cost = float(input("Enter the extra costs: "))
 
-print(f"Total income --> {total_income}")
-print(f"Total expenses --> {total_expenses}")
-print(f"Reamining --> {remaining_budget}")
+# Calculate total expenses
+total_expenses = rent_cost + groceries_cost + transport_cost + utilities_cost + extra_cost
+
+# Calculate savings
+savings = total_income - total_expenses
+
+# 🔹 Display results with proper formatting
+print(f"\nTotal Income --> {total_income:.2f}")
+print(f"Total Expenses --> {total_expenses:.2f}")
+print(f"Savings --> {savings:.2f}")
+
