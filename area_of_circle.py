@@ -7,6 +7,7 @@
 # ------------------------------------------------------------
 
 #Ask the user to enter the radius of the circle
+#created a variable named radius
 radius = int(input("Enter the radius of the circle: "))
 
 #constant 
