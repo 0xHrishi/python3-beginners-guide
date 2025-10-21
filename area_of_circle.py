@@ -13,7 +13,7 @@ radius = int(input("Enter the radius of the circle: "))
 #constant 
 PI = 3.14 
 
-# Calculate the area using the formula: π × r²
+# Calculate the area using the formula: PI × r²
 area_of_circle = PI * radius * radius
 
 print(f"Area of circle --> {area_of_circle:}")
