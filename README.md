@@ -49,8 +49,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Different Data types --> Click here to view the full script: [data_types.py](<data_types.py>)
 
 ### 🔰 Strings and its popular methods
-📌 Example: Strings, strings concatenation and formatted string --> Click here to view the full script: [strings.py](<strings.py>)  
-📌 Example: Strings slicing--> Click here to view the full script: [string_slicing.py](<string_slicing.py>)  
+📌 Example: Strings, strings concatenation, formatted output and string slicing --> Click here to view the full script: [strings.py](<strings.py>)  
 📌 Example: Strings methods --> Click here to view the full script: [string_methods.py](<string_methods.py>)  
 📌 Example: Email generator example using replace method  --> Click here to view the full script: [email_generator.py](<email_generator.py>)  
 
