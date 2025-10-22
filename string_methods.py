@@ -1,67 +1,38 @@
-#Popular string methods 
-#string.lower() --> Convert the string into lowercase 
-#string.upper() --> Convert the string into uppercase
-#string.title() --> First letter in each word 
-#string.capitalize() --> First letter capital 
-#string.repalce("old","new") --> Replace the string with a new word
-#string.find("Hri") --> Helps the user to find a keyword is present or not within specific string
-#string.split("@")[0] --> Spilt the string based upon the user specific word and display as per index
-#string.strip() --> Remove extra spaces 
-#string.lstrip() and string.rstrip() --> Removes extra spaces from left to right 
+#Popular string methods
+full_name = "ADADA ADADA ADADA"
 
-#string.startswith() and string.endswith() --> Confirm whether the staring starts and ends with a specific keyword 
+#Converts the string into lower case
+print(f"lower case -- {full_name.lower()}")
 
-#Verify string 
-#isupper() --> Check whether the string is in uppercase format
-#islower() --> Check whether the string is in lowercase format
-#isdigit() --> Check whether the string contains only nuemric values
-#isalnum --> Check whether string contains alphabets and numeric values
-#isalpha() --> String must contain only alphabets
+#Converts the string into upper case
+print(f"Upper case -- {full_name.upper()}")
 
-full_name=input("Enter your full name\n")
+#First letter of each word in capital
+print(f"Title -- {full_name.title()}")
 
-#name in upper case
-print(f"Your name in UPPER CASE --> {full_name.upper()}")
-#name in lower case
-print(f"Your name in lower case --> {full_name.lower()}")
-#title method where each word first letter in uppercase
-print(f"Your name in title --> {full_name.title()}")
-#First word in a sentence is capital
-print(f"Your name in capitalize --> {full_name.capitalize()}")
+#First letter capital
+print(f"Capitalize -- {full_name.capitalize()}")
 
-#startswith to check whether a string start with specific keyword defined by the user 
-if full_name.startswith("Hri"):
-    print("Name starts with Hri")
+#condition to check whether the full name is in lowercase
+if full_name == full_name.lower():
+    print("OK")
 else:
-    print("Name does not start with Hri")
+    print("Not OK")
 
-#endwwith to check whether a string ends with specific keyword defined by the user 
-if full_name.endswith("kar"):
-    print("Name ends with Kar")
+#condition to check whether the full name is in upper
+if full_name == full_name.upper():
+    print("OK")
 else:
-    print("Name does not ends with kar")
+    print("Not OK")
 
-#startswith to check whether a string is in lowercase
-if full_name.islower():
-    print("Name is in lower case")
+#startswith and endswith 
+#Multiple -- if full_name == full_name.startswith(("adada", "asfdfsf")):
+if full_name == full_name.startswith("adada"):
+    print("OK")
 else:
-    print("Name is not in lower case")
+    print("Not OK")
 
-#startswith to check whether a string is in upper
-if full_name.isupper():
-    print("Name is in upper case")
-else:
-    print("Name is not in upper case")
-
-#check whether the string contain only alphabets 
-if full_name.isalpha():
-    print("Name contain only alphabets")
-else:
-    print("Name contain alphabets plus other special characters or digits")
-
-#To check whether a string contain an integer or not
-number="10"
-if number.isdigit():
-    print("Number is an integer")
-else:
-    print("Number is not an integer")
+#strip() -- Removes the front and end extra spaces
+#lstrip() -- Removes the spaces from left
+#rstrip() -- Removes the spaces from right 
+#string.find 
