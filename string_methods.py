@@ -65,3 +65,6 @@ else:
 # str.replace
 str.replace("odl text", "new text")
 
+# str.split 
+email_address = "admin@abc"
+print(f"Username is {emaill_address.split("@")[0]}")
