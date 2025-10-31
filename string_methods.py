@@ -62,3 +62,6 @@ if full_name.isalpha():
 else:
     print("Not ok")
 
+# str.replace
+str.replace("odl text", "new text")
+
