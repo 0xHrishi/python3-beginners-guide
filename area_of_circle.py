@@ -6,17 +6,18 @@
 #         Area = 3.14 × radius * radius
 # ------------------------------------------------------------
 
-#Ask the user to enter the radius of the circle
-#created a variable named radius
-radius = int(input("Enter the radius of the circle: "))
+# Ask the user to enter the radius and convert it to float
+radius = float(input("Enter the radius of the circle\n"))
 
-#constant 
-PI = 3.14 
+# PI -- constant 
+PI=3.14
 
-# Calculate the area using the formula: PI × r²
-area_of_circle = PI * radius * radius
+# Calculate the area of the circle using the formula
+area_of_circle = PI * (radius*radius)
 
-print(f"Area of circle --> {area_of_circle:}")
-
-#Display the result, formatted to 2 decimal places
+# Print the radius entered by the user
+print(f"Radius of the circle : {radius}")
+# Print the full area without rounding
+print(f"Area of circle --> {area_of_circle}")
+# Print the full area without rounding
 print(f"Area of circle --> {area_of_circle:.2f}")
