@@ -78,6 +78,3 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Sets, add and remove methods, subset and superset --> Click here to view the full script: [sets.py](<sets.py>)  
 
 ### 🔰 Examples
-📌 Example: Personal budget calculator --> Click here to view the full script: [budget_calculator.py](<budget_calculator.py>)  
-📌 Example: Attendance checker--> Click here to view the full script: [attendance_checker.py](<attendance_checker.py>)  
-
