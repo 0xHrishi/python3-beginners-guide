@@ -40,7 +40,7 @@ Shift + F10   # Runs the script inside the IDE
 - ## 📂 Examples by Topic
 
 ### 🔰 Basics
-📌 Example : Hello World --> Click here to view the full script: [hello world.py](<hello world.py>)  
+📌 Example : Hello World --> Click here to view the full script: [hello world.py](<python/01_hello world.py>)  
 📌 Example: Single and multi lines comments --> Click here to view the full script: [comments.py](<comments.py>)
 
 ### 🔰 Variables and Constant 
