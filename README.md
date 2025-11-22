@@ -41,31 +41,31 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Basics
 📌 Example : Hello World --> Click here to view the full script: [hello world.py](<python/01_hello world.py>)  
-📌 Example: Single and multi lines comments --> Click here to view the full script: [comments.py](<comments.py>)
+📌 Example: Single and multi lines comments --> Click here to view the full script: [comments.py](<python/02_comments.py>)
 
 ### 🔰 Variables and Constant 
-📌 Example: Variables and Constant --> Click here to view the full script: [area_of_circle.py](<area_of_circle.py>)  
-📌 Example: Global and Local variable --> Click here to view the full script: [global_local_variable.py](<global_local_variable.py>)  
-📌 Example: Different Data types --> Click here to view the full script: [data_types.py](<data_types.py>)
+📌 Example: Variables and Constant --> Click here to view the full script: [area_of_circle.py](<python/03_area_of_circle.py>)  
+📌 Example: Global and Local variable --> Click here to view the full script: [global_local_variable.py](<python/04_global_local_variable.py>)  
+📌 Example: Different Data types --> Click here to view the full script: [data_types.py](<python/05_data_types.py>)
 
 ### 🔰 Strings and its popular methods
-📌 Example: Strings, strings concatenation, formatted output and string slicing --> Click here to view the full script: [strings.py](<strings.py>)  
-📌 Example: Strings methods --> Click here to view the full script: [string_methods.py](<string_methods.py>)  
+📌 Example: Strings, strings concatenation, formatted output and string slicing --> Click here to view the full script: [strings.py](<python/06_strings.py>)  
+📌 Example: Strings methods --> Click here to view the full script: [string_methods.py](<python/07_string_methods.py>)  
 
 ### 🔰 Operators 
-📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<arithmetic_operators.py>)  
-📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<comparsion_operators.py>)  
-📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<assignment_operators.py>)   
-📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<logical_operators.py>)  
-📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<membership_operators.py>)
+📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<python/08_arithmetic_operators.py>)  
+📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<python/09_comparsion_operators.py>)  
+📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<python/10_assignment_operators.py>)   
+📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<python/11_logical_operators.py>)  
+📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<python/12_membership_operators.py>)
 
 ### 🔰 Statements 
-📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<if_if_else.py>)  
+📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<python/13_if_if_else.py>)  
 
 ### 🔰 Loops --> for and while 
-📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<for_loop.py>)  
-📌 Example: while loop --> Click here to view the full script: [while_loop.py](<while_loop.py>)  
-📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<continue_break.py>)  
+📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/14_for_loop.py>)  
+📌 Example: while loop --> Click here to view the full script: [while_loop.py](<python/15_while_loop.py>)  
+📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<python/16_continue_break.py>)  
 
 ### 🔰 Functions
 📌 Example: Functions Parameterized and non Parameterized, Return value and lambda --> Click here to view the full script: [functions.py](<functions.py>)  
