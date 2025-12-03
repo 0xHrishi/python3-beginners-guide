@@ -1,61 +1,57 @@
 # Popular string methods
-# str.lower -- convert the string into lowercase
-# str.uppercase -- convert the string into uppercase
-# str.title -- First letter of each word in Capital 
-# str.capitalize -- Only first letter of an sentence is Capital
-full_name = input("Enter the full name\n")
+full_name = input("Enter your full name\n")
 
-print(f"Full name in uppercase -- {full_name.upper()}")
-print(f"Full name in lowercase -- {full_name.lower()}")
-print(f"Full name in title format -- {full_name.title()}")
-print(f"Full name in capitalize -- {full_name.capitalize()}")
-######################################################################################################################################################
-# str.isalpha() -- Validates a string i.e. it contains only alphabets
-# str.isalnum() -- Validates a string i.e. it contains alphabets and numeric values, No spaces, no dots, no special characters
-# str.digit() -- Validates a string i.e. it contains numeric values
-# str.islower() -- Check the string, str.isupper()
-if full_name.isalpha():
-    print("String contains only alphabets")
+
+# str.upper() -- Convert the string to uppercase, str.lower() -- Convert the string to lowercase
+# str.title() -- First letter in each word is capital, str.capitalize() -- First letter in a sentence is capitalize
+# str.strip() -- Removes extra spaces from left and right, str.rstrip() -- Remove extra spaces from right 
+# str.lstrip() -- Remves extra spaces from left 
+print(f"Your full name in upper case -- {full_name.upper()}")
+print(f"Your full name in lower case -- {full_name.lower()}")
+print(f"Your full name in title format -- {full_name.title()}")
+print(f"Your full name in Capitalize -- {full_name.capitalize()}")
+print(f"Lets remove the extra spaces from left -- {full_name.lstrip()}")
+print(f"Lets remove the extra spaces from right -- {full_name.rstrip()}")
+print(f"Lets remove the extra spaces from left and right -- {full_name.strip()}")
+
+print("*"*100)
+
+# str.endswith() -- Used to check whether a string ends with specfic word or letter
+# str.endswith("abc") or str.endswith(full_name) 
+# str.endswith("abc", "xyz") or str.endswith(full_name, first_name)
+if full_name.endswith("abc"):
+    print("Ok")
 else:
-    print("String contains more than just characters")
+    print("No OK")
 
-if full_name.isalnum():
-    print("String contains alphabets and numeric values")
+# str.startswith() -- Used to check whether a string starts with specfic word or letter
+# str.startswith("abc") or str.startswith(full_name) 
+# str.startswith("abc", "xyz") or str.startswith(full_name, first_name)
+if full_name.startswith("abc"):
+    print("Ok")
 else:
-    print("String does not contains alphabets and numeric values")
+    print("No OK")
 
-if full_name.isdigit():
-    print("Numeric value detected")
+# str.replace -- Replace the string if match is found
+# str.replace("abc", "xyz") or str.replace(full_name, first_name)
+if full_name.startswith("abc"):
+   print(full_name.replace(full_name, "xyz"))
 else:
-    print("Numeric value not detected")
-######################################################################################################################################################
-# str.lstip() -- Remove extra spaces at beginning 
-# str.rstrip() -- Remove extra spaces at the ending 
-# str.strip() -- Remove beginning and ending extra spaces 
+    print("No OK")
 
-print(f"Removing beginning extra spaces {full_name.lstrip()}")
-print(f"Removing ending extra spaces {full_name.rstrip()}")
-print(f"Removing beginning and ending extra spaces {full_name.strip()}")
-######################################################################################################################################################
-# strs.endswith() -- Check whether a string ends with user specified letters
-# strs.startswith() -- Check whether a string starts with user specified letters
-# strs.startswith("abc", "xyz") -- Multiple checks
+# Check user input
+# str.isupper -- Check whether the string is in uppercase
+# str.islower -- Check whether the string is in lowercase
+# str.isalpha -- Check whether the string contains on alphabets
+# str.isalnum -- Check string consists of nuberrs or alphabets
+# str.isdigit -- Check string consists of numbers only
 
-if full_name.startswith("hri"):
-    print("String starts from hri")
-else:
-    print("String does not starts from hri")
 
-if full_name.endswith("hri"):
-    print("String ends from hri")
-else:
-    print("String does not ends from hri")
-######################################################################################################################################################
-# str.replace -- abc gets replaced by ayx
-str.replace("abc","ayx")
-######################################################################################################################################################
-# str.split() -- Split the string into pieces based upon the separator
-email_address = abc@ab.com
-# Output 'abc'
-print(f"Username--> {email_address_1.split("@")[0]} ")
-######################################################################################################################################################
+
+
+
+
+
+
+
+
