@@ -17,3 +17,24 @@ savings = total_income - total_expense
 print(f"Total income -- {total_income}")
 print(f"Total expense -- {total_expense:.2f}")
 print(f"Savings -- {savings:.2f}")
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This script converts: 1) Celsius to Fahrenheit 2) Fahrenheit to Celsius
+
+# Prompt user to enter the temperature in Celsius
+celsius = float(input("Enter the temperature in Celsius: "))
+# Celsius to Fahrenheit Conversion
+celsius_to_fahrenheit = (celsius * 9 / 5) + 32
+
+print(f"Temperature in Celsius -- {celsius}")
+print(f"Temperature in Fahrenheit -- {celsius_to_fahrenheit:.2f}")
+
+
+# Prompt user to enter the temperature in Fahrenheit
+fahrenheit = float(input("Enter the temperature in Fahrenheit: "))
+# Fahrenheit to Celsius Conversion
+fahrenheit_to_celsius = (fahrenheit - 32) * 5 / 9
+
+print(f"Temperature in Fahrenheit -- {fahrenheit}")
+print(f"Temperature in Celsius -- {fahrenheit_to_celsius:.2f}")
+
