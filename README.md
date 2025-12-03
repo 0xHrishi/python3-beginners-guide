@@ -48,7 +48,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Variables and Constant --> Click here to view the full script: [area_of_circle.py](<python/04_area_of_circle.py>)  
 📌 Example: Global and Local variable --> Click here to view the full script: [global_local_variable.py](<python/05_global_local_variable.py>)  
 📌 Example: Variables example --> Click here to view the full script: [variables_example.py](<python/06_variables_examples.py>)  
-📌 Example: Different Data types --> Click here to view the full script: [data_types.py](<python/05_data_types.py>)
+📌 Example: Different Data types --> Click here to view the full script: [data_types.py](<python/06_data_types.py>)
 
 ### 🔰 Strings and its popular methods
 📌 Example: Strings, strings concatenation, formatted output and string slicing --> Click here to view the full script: [strings.py](<python/06_strings.py>)  
