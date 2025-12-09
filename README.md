@@ -55,11 +55,11 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Strings methods --> Click here to view the full script: [string_methods.py](<python/09_string_methods.py>)  
 
 ### 🔰 Operators 
-📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<python/08_arithmetic_operators.py>)  
-📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<python/09_comparsion_operators.py>)  
-📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<python/10_assignment_operators.py>)   
-📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<python/11_logical_operators.py>)  
-📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<python/12_membership_operators.py>)
+📌 Example: Arithmetic operators --> Click here to view the full script: [arithmetic_operators.py](<python/10_arithmetic_operators.py>)  
+📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<python/11_comparsion_operators.py>)  
+📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<python/12_assignment_operators.py>)   
+📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<python/13_logical_operators.py>)  
+📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<python/14_membership_operators.py>)
 
 ### 🔰 Statements 
 📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<python/13_if_if_else.py>)  
