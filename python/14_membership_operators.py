@@ -1,10 +1,11 @@
-#Membership operator 
-# in, not in 
+# Membership operators 
+# To check whether a particular value is present or not in a list of sequence 
+# Membership operator -- in, not in 
 
-full_name=input("Enter full name\n")
-keyword=input("Enter the keyword to find\n")
+full_name = input("Enter your full name\n")
+search_keyword = input("Enter the word to be searched\n")
 
-if keyword in full_name:
-    print(f"Keyword --> {keyword} found in Full name --> {full_name}")
+if search_keyword in full_name:
+    print("Keyword found")
 else:
-    print(f"Keyword --> {keyword} not found in Full name --> {full_name}")
+    print("Keyword not found")
