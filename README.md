@@ -63,7 +63,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Membership operators --> Click here to view the full script: [identity_operators.py](<python/15_identity_operators.py>)
 
 ### 🔰 Statements 
-📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<python/13_if_if_else.py>)  
+📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<python/16_if_elif_else_statements.py>)  
 
 ### 🔰 Loops --> for and while 
 📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/14_for_loop.py>)  
