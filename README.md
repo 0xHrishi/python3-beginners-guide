@@ -59,7 +59,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Comparsion operators --> Click here to view the full script: [comparsion_operators.py](<python/11_comparsion_operators.py>)  
 📌 Example: Assignment operators --> Click here to view the full script: [assignment_operators.py](<python/12_assignment_operators.py>)   
 📌 Example: Logical operators --> Click here to view the full script: [logical_operators.py](<python/13_logical_operators.py>)  
-📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<python/14_membership_operators.py>)
+📌 Example: Membership operators --> Click here to view the full script: [membership_operators.py](<python/14_membership_operators.py>)   
 📌 Example: Membership operators --> Click here to view the full script: [identity_operators.py](<python/15_identity_operators.py>)
 
 ### 🔰 Statements 
