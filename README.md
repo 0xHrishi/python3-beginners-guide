@@ -68,7 +68,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Movie ticket --> Click here to view the full script: [statements example.py](<python/18_movie_ticket.py>)   
 
 ### 🔰 Loops --> for and while 
-📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/14_for_loop.py>)  
+📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/19_even_odd.py>)  
 📌 Example: while loop --> Click here to view the full script: [while_loop.py](<python/15_while_loop.py>)  
 📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<python/16_continue_break.py>)  
 
