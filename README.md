@@ -69,7 +69,7 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Loops --> for and while 
 📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/19_even_odd.py>)  
-📌 Example: while loop --> Click here to view the full script: [while_loop.py](<python/15_while_loop.py>)  
+📌 Example: Multiplication using while loop --> Click here to view the full script: [while_loop.py](<python/20_while_loop.py>)  
 📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<python/16_continue_break.py>)  
 
 ### 🔰 Functions
@@ -83,4 +83,5 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Sets, add and remove methods, subset and superset --> Click here to view the full script: [sets.py](<sets.py>)  
 
 ### 🔰 Examples
-📌 Example: Even or Odd numbers --> Click here to view the full script: [even_odd.py](<python/19_even_odd.py>)  
+📌 Example: Even or Odd numbers --> Click here to view the full script: [even_odd.py](<python/19_even_odd.py>)   
+📌 Example: Multiplication using while loop --> Click here to view the full script: [while_loop.py](<python/20_while_loop.py>)  
