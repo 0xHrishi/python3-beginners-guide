@@ -70,7 +70,7 @@ Shift + F10   # Runs the script inside the IDE
 ### 🔰 Loops --> for and while 
 📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/19_even_odd.py>)  
 📌 Example: Multiplication using while loop --> Click here to view the full script: [while_loop.py](<python/20_while_loop.py>)  
-📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<python/21_continue_break.py>)  
+📌 Example: continue and break --> Click here to view the full script: [continue_break.py](<python/22_continue_break.py>)  
 
 ### 🔰 Functions
 📌 Example: Functions Parameterized and non Parameterized, Return value and lambda --> Click here to view the full script: [functions.py](<functions.py>)  
