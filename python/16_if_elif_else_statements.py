@@ -24,7 +24,7 @@ if condition:
         code
     elif condition:
         code
-    else
+    else:
         code
 elif condition:
     code
