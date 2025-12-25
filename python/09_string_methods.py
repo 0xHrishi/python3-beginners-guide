@@ -1,57 +1,72 @@
 # Popular string methods
+# str.lower() -- Convert the string into lowercase
+# str.upper() -- Convert the string into uppercase
+# str.title() -- First letter of each word -- capital
+# str.capitalize() -- First letter in a sentence -- Capital 
 full_name = input("Enter your full name\n")
 
+print(f"Your name is {full_name.lower()}")
+print(f"Your name is {full_name.upper()}")
+print(f"Your name is {full_name.title()}")
+print(f"Your name is {full_name.capitalize()}")
 
-# str.upper() -- Convert the string to uppercase, str.lower() -- Convert the string to lowercase
-# str.title() -- First letter in each word is capital, str.capitalize() -- First letter in a sentence is capitalize
-# str.strip() -- Removes extra spaces from left and right, str.rstrip() -- Remove extra spaces from right 
-# str.lstrip() -- Remves extra spaces from left 
-print(f"Your full name in upper case -- {full_name.upper()}")
-print(f"Your full name in lower case -- {full_name.lower()}")
-print(f"Your full name in title format -- {full_name.title()}")
-print(f"Your full name in Capitalize -- {full_name.capitalize()}")
-print(f"Lets remove the extra spaces from left -- {full_name.lstrip()}")
-print(f"Lets remove the extra spaces from right -- {full_name.rstrip()}")
-print(f"Lets remove the extra spaces from left and right -- {full_name.strip()}")
-
-print("*"*100)
-
-# str.endswith() -- Used to check whether a string ends with specfic word or letter
-# str.endswith("abc") or str.endswith(full_name) 
-# str.endswith("abc", "xyz") or str.endswith(full_name, first_name)
-if full_name.endswith("abc"):
-    print("Ok")
+# str.islower() -- Check whether the string is in lowercase
+# str.isupper() -- Check whether the string is in uppercase
+# str.istitle() -- Check whether the string is in title format
+if full_name.islower():
+    print("lowercase")
 else:
-    print("No OK")
+    print("Not in lowercase")
 
-# str.startswith() -- Used to check whether a string starts with specfic word or letter
-# str.startswith("abc") or str.startswith(full_name) 
-# str.startswith("abc", "xyz") or str.startswith(full_name, first_name)
-if full_name.startswith("abc"):
-    print("Ok")
+if full_name.isupper():
+    print("uppercase")
 else:
-    print("No OK")
+    print("Not in uppercase")
 
-# str.replace -- Replace the string if match is found
-# str.replace("abc", "xyz") or str.replace(full_name, first_name)
-if full_name.startswith("abc"):
-   print(full_name.replace(full_name, "xyz"))
+if full_name.istitle():
+    print("title format")
 else:
-    print("No OK")
+    print("Not in title format")
+lines()
 
-# Check user input
-# str.isupper -- Check whether the string is in uppercase
-# str.islower -- Check whether the string is in lowercase
-# str.isalpha -- Check whether the string contains on alphabets
-# str.isalnum -- Check string consists of nuberrs or alphabets
-# str.isdigit -- Check string consists of numbers only
+# str.isalpha() -- Check whether the string consist of only alphabets
+# str.isdigit() -- Check whether the string consist of only digits
+# str.isalnum() -- Check whether the string consist of alphabets or digits
+
+if full_name.isalpha():
+    print("All alphabets")
+else:
+    print("not alphabets")
+if full_name.isdigit():
+    print("All digits")
+else:
+    print("not digits")
+if full_name.isalnum():
+    print("All alphanumeric")
+else:
+    print("not alphanumeric")
 
 
+# str.startswith("abc") -- Help the user to check whether a string starts with specific keyword
+# str.startswith(("abc", xyz)) -- Help the user to check whether a string starts with specific keyword
+# str.endswith("abc") -- Help the user to check whether a string ends with specific keyword
+# str.endswith(("abc", xyz)) -- Help the user to check whether a string starts with specific keyword
+name = input("Enter name\n")
 
+if name.endswith(("Hri","hri")):
+    print("Name starts with specified keyword")
+else:
+    print("Name does not starts with specified keyword")
 
+name = input("Enter name\n")
 
+if name.endswith(("Hri","hri")):
+    print("Name starts with specified keyword")
+else:
+    print("Name does not starts with specified keyword")
 
+# str.strip -- Remove leading and trailig extra spaces
+# str.lstrip() -- remove leading extra spaces
+# str.rstrip() -- remove trailing spaces
 
-
-
-
+# str.repalce("abc", "xyz) -- Allows the user to replace a specific keyword
