@@ -7,6 +7,7 @@ radius = float(input("Enter the radius of the circle\n"))
 # Constant value of PI
 PI = 3.14
 # Calculation: Area of the circle
+# area_of_circle = PI * radius ** 2
 area_of_circle = PI * radius * radius
 
 # Output: Show radius and calculated area
