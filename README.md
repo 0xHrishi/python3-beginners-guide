@@ -82,9 +82,6 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Sets, add and remove methods, subset and superset --> Click here to view the full script: [sets.py](<sets.py>)  
 
 ### 🔰 Examples
-📌 Example: Even or Odd numbers --> Click here to view the full script: [even_odd.py](<python/19_even_odd.py>)   
-📌 Example: Multiplication using while loop --> Click here to view the full script: [while_loop.py](<python/20_while_loop.py>)  
-Example: Add two numbers --> Result even or odd--> Click here to view the full script: [Sum Even Odd.py](<python/21_sum_even_odd.py>)  
-Example: Budget calculator --> Result even or odd--> Click here to view the full script: [budget_calculator.py](<python/22_budget_calculator.py>)  
+Example: Budget calculator --> Result even or odd--> Click here to view the full script: [budget_calculator.py](<python/24_budget_calculator.py>)  
 
 
