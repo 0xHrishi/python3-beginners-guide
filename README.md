@@ -82,7 +82,7 @@ Shift + F10   # Runs the script inside the IDE
 📌 Example: Sets, add and remove methods, subset and superset --> Click here to view the full script: [sets.py](<sets.py>)  
 
 ### 🔰 Examples
-Example: Budget calculator -->  Click here to view the full script: [budget_calculator.py](<python/24_budget_calculator.py>)  
-Example: Temperature conversion -->  Click here to view the full script: [temp_conversion.py](<python/25_temp_conversion.py>)  
+📌 Example: Budget calculator -->  Click here to view the full script: [budget_calculator.py](<python/24_budget_calculator.py>)  
+📌 Example: Temperature conversion -->  Click here to view the full script: [temp_conversion.py](<python/25_temp_conversion.py>)  
 
 
