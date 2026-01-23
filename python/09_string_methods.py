@@ -37,3 +37,23 @@ if sentence.endswith("abc"):
     print(f"Sentence ends with the specified keyword")
 else:
     print(f"Sentence does not ends with the specified keyword")
+
+# verify the user input
+str.islower() -- Check whether the string is in lowercase
+str.isupper() -- Check whether the string is in uppercase
+str.istitle() -- Check each word is capital 
+str.isdigit() -- Check whether the string contain numeric values
+str.isalpah() -- Check whether the string contain alpahbets
+str.isalnum() -- Check whether the string contain alphabets and numeric 
+
+# str.replace() -- Replace the word
+str.replace(".", “ ”) -- Replace the dot ‘.’ with space 
+str.reaplce(name_1, name_2)
+	
+    
+    
+
+
+
+
+
