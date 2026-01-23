@@ -1,72 +1,39 @@
 # Popular string methods
-# str.lower() -- Convert the string into lowercase
-# str.upper() -- Convert the string into uppercase
-# str.title() -- First letter of each word -- capital
-# str.capitalize() -- First letter in a sentence -- Capital 
-full_name = input("Enter your full name\n")
 
-print(f"Your name is {full_name.lower()}")
-print(f"Your name is {full_name.upper()}")
-print(f"Your name is {full_name.title()}")
-print(f"Your name is {full_name.capitalize()}")
+#!/usr/bin/python
+def lines():
+    print("*"*50)
 
-# str.islower() -- Check whether the string is in lowercase
-# str.isupper() -- Check whether the string is in uppercase
-# str.istitle() -- Check whether the string is in title format
-if full_name.islower():
-    print("lowercase")
-else:
-    print("Not in lowercase")
-
-if full_name.isupper():
-    print("uppercase")
-else:
-    print("Not in uppercase")
-
-if full_name.istitle():
-    print("title format")
-else:
-    print("Not in title format")
+sentence = input("Enter any sentence:\n")
 lines()
+# str.lower() -- converts the string into lowercase
+# str.upper() -- converts the string intp uppercase
+# str.title() -- in title format i.e. first letter in each word is capital
+# str.capitalize() -- in capitalize format i.e. first letter in the sentence is in capital
+print(f"Name in lowercase --> {sentence.lower()}")
+print(f"Name in Upper --> {sentence.upper()}")
+print(f"Name in title --> {sentence.title()}")
+print(f"Name in capitaliaze --> {sentence.capitalize()}")
 
-# str.isalpha() -- Check whether the string consist of only alphabets
-# str.isdigit() -- Check whether the string consist of only digits
-# str.isalnum() -- Check whether the string consist of alphabets or digits
+# str.lstrip() -- Remove the extra spaces from the left
+# str.rstrip() -- Remove the extra spaces from the right
+# str.strip() -- remove the leading and trailing extra spaces
+print(f"Remove the extra spaces from left -- {sentence.lstrip()}")
+print(f"Remove the extra spaces from right -- {sentence.rstrip()}")
+print(f"Remove the extra spaces from left and right -- {sentence.strip()}")+
 
-if full_name.isalpha():
-    print("All alphabets")
+# check whether a string starts with a specific keyword i.e. str.startswith("keyword")
+# str.startswith("abc") and str.startswith("abc","xyz")
+# str.startswith(var_1) and str.startswith(var_1,var_2)
+
+# check whether a string ends with a specific keyword i.e. str.endswith("keyword")
+# str.endswith("abc") and str.endswith("abc","xyz")
+# str.endswith(var_1) and str.endswith(var_1,var_2)
+if sentence.startswith("abc"):
+    print(f"Sentence starts with the specified keyword")
 else:
-    print("not alphabets")
-if full_name.isdigit():
-    print("All digits")
+    print(f"Sentence does not starts with the specified keyword")
+if sentence.endswith("abc"):
+    print(f"Sentence ends with the specified keyword")
 else:
-    print("not digits")
-if full_name.isalnum():
-    print("All alphanumeric")
-else:
-    print("not alphanumeric")
-
-
-# str.startswith("abc") -- Help the user to check whether a string starts with specific keyword
-# str.startswith(("abc", xyz)) -- Help the user to check whether a string starts with specific keyword
-# str.endswith("abc") -- Help the user to check whether a string ends with specific keyword
-# str.endswith(("abc", xyz)) -- Help the user to check whether a string starts with specific keyword
-name = input("Enter name\n")
-
-if name.endswith(("Hri","hri")):
-    print("Name starts with specified keyword")
-else:
-    print("Name does not starts with specified keyword")
-
-name = input("Enter name\n")
-
-if name.endswith(("Hri","hri")):
-    print("Name starts with specified keyword")
-else:
-    print("Name does not starts with specified keyword")
-
-# str.strip -- Remove leading and trailig extra spaces
-# str.lstrip() -- remove leading extra spaces
-# str.rstrip() -- remove trailing spaces
-
-# str.repalce("abc", "xyz) -- Allows the user to replace a specific keyword
+    print(f"Sentence does not ends with the specified keyword")
