@@ -1,21 +1,32 @@
-# This script collects monthly income and different categories of expenses from the user, calculates the total expenses, and finally displays the savings.
+#!/usr/bin/python
+# Description -- Basic program for budget calculator 
+# Add all the expenses and subtract from the total income and at the end display savings
+def lines():
+    print("*"*75)
 
-# Input: Collecting monthly income
-total_income = float(input("Enter the total income of the month: "))
-# Input: Collecting expenses
-rent = float(input("Enter the cost towards rent: "))
-groceries = float(input("Enter the cost towards groceries: "))
-transport = float(input("Enter the cost towards transport: "))
-utilities = float(input("Enter the cost towards utilities such as internet, electricity and gas: "))
-extra_cost = float(input("If any, enter extra cost: "))
+# Prompt user input
+total_income = float(input("Enter the total income\n"))
+rent_cost = float(input("Enter the rent cost\n"))
+groceries_cost = float(input("Enter the groceries cost\n"))
+transport_cost = float(input("Enter the transport cost\n"))
+utilities_cost = float(input("Enter the Utilities cost such as water, electrcicity and phone bill\n"))
+extra_cost = float(input("Enter the extra cost\n"))
 
-# Calculations
-total_expense = rent + groceries + transport + utilities + extra_cost
-savings = total_income - total_expense
+# Add all the expense
+total_expenses = rent_cost + groceries_cost + transport_cost + utilities_cost + extra_cost
+# Subtract total income - total expense
+savings = total_income - total_expenses
 
-# Output: Display results
+# Display user input
+lines()
 print(f"Total income -- {total_income}")
-print(f"Total expense -- {total_expense:.2f}")
+print(f"Rent cost -- {rent_cost}")
+print(f"Groceries cost -- {groceries_cost}")
+print(f"Transport cost -- {transport_cost}")
+print(f"Utilities cost -- {utilities_cost}")
+print(f"Extra cost -- {extra_cost}")
+# Display total expenses and savings
+print(f"Total expenses -- {total_expenses:.2f}")
 print(f"Savings -- {savings:.2f}")
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
