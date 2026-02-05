@@ -23,4 +23,5 @@ print(f"Number 3 -- {number_3}")
 # Assigning the same value to multiple variables at once
 # --------------------------------------------------
 number_4 = number_5 = 40
-print(f"Number 4 and Number 5 -- {number_4} and {number_5}")
+print(f"Number 3 -- {number_4}")
+print(f"Number 3 -- {number_5}")
