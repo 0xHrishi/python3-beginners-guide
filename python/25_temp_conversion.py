@@ -1,49 +1,51 @@
+#!/usr/bin/python
 
 def lines():
-    print("*"*50)
+    print("*"*100)
 
-# This Python script converts temperatures between Celsius and Fahrenheit.
+# This script converts:
+# 1) Celsius to Fahrenheit
+# 2) Fahrenheit to Celsius
 
-# ---------------------- Celsius to Fahrenheit ----------------------
-print("***************CELSIUS TO FAHRENHEIt***************")
+# user input
 celsius = input("Enter the temperature in celsius\n")
 
-# Check for empty input
+lines()
+# User input empty
 if len(celsius) == 0:
-    lines()
-    print(f"User input --> Celsius feild is empty")
+    print("User input --> Temperature in celsius field is empty")
 
 # User input not empty
-# User input validation 
-# Validation pass -- do the calculation i.e. from celsius to fahrenheit 
+# Validation check i.e. user input must contain only numeric values 
+# validation passed -- convert the user input data type from string to float
+# calculate and display 
 else:
-    if not celsius.replace(".","",1).lstrip("-").isdigit():
-        lines()
-        print("User input --> Celsius field must contain only numeric values")
-
-    elif celsius.replace(".","",1).lstrip("-").isdigit():
+    if not celsius.replace(".", "", 1).isdigit():
+        print("Temperature in celsius field must contain only numeric values")
+    else:
         celsius = float(celsius)
         celsius_to_fahrenheit = (celsius * 9 / 5) + 32
-        print(f"Temperature in Celsius --> {celsius}")
-        print(f"Temperature in Fahrenheit --> {celsius_to_fahrenheit:.2f}")
+        print(f"Temperature in celsius --> {celsius}")
+        print(f"Temperature in fahrenheit --> {celsius_to_fahrenheit:.2f}")
 
-print("***************FAHRENHEIT TO CELSIUS***************")
+lines()
+# User input empty
 fahrenheit = input("Enter the temperature in fahrenheit\n")
 
+lines()
+# user input empty
 if len(fahrenheit) == 0:
-    lines()
-    print(f"User input --> Fahrenheit feild is empty")
+    print("User input --> Temperature in fahrenheit field is empty")
 
 # User input not empty
-# User input validation 
-# Validation pass -- do the calculation i.e. from fahrenheit to celsius
+# Validation check i.e. user input must contain only numeric values 
+# validation passed -- convert the user input data type from string to float
+# calculate and display 
 else:
-    if not fahrenheit.replace(".","",1).lstrip("-").isdigit():
-        lines()
-        print("User input --> Fahrenheit field must contain only numeric values")
-
-    elif fahrenheit.replace(".","",1).lstrip("-").isdigit():
+    if not fahrenheit.replace(".", "", 1).isdigit():
+        print("Temperature in fahrenheit field must contain only numeric values")
+    else:
         fahrenheit = float(fahrenheit)
-        fahrenheit_to_celsius = (fahrenheit - 32) * 5/9
-        print(f"Temperature in Fahrenheit --> {fahrenheit}")
-        print(f"Temperature in Celsius --> {fahrenheit_to_celsius:.2f}")
+        fahrenheit_to_celsius =  (fahrenheit - 32) * 5 / 9
+        print(f"Temperature in fahrenheit --> {fahrenheit}")
+        print(f"Temperature in celsius --> {fahrenheit_to_celsius}")
