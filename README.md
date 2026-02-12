@@ -63,7 +63,7 @@ Shift + F10   # Runs the script inside the IDE
 
 ### 🔰 Statements 
 📌 Example: if and if else --> Click here to view the full script: [basic_statements.py](<python/16_if_elif_else_statements.py>)  
-📌 Example: Attendance Checker --> Click here to view the full script: [statements example.py](<python/17_attendance_checker.py>)    
+📌 Example: Attendance Checker --> Click here to view the full script: [attendance_checker.py](<python/17_attendance_checker.py>)    
 
 ### 🔰 Loops --> for and while 
 📌 Example: For loop --> Display even or odd numbers --> Click here to view the full script: [for_loop.py](<python/19_even_odd.py>)  
