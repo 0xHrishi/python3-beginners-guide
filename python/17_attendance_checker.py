@@ -1,56 +1,47 @@
 #!/usr/bin/python
-# Accepts total classes and classes attended from user
-# Calculates attendance percentage
-# Provides eligibility messages based on attendance
 
-# Function to print a line
+# function to print lines
 def lines():
-        print("*"*100)
+    print("*"*100)
 
-# Prompt user input
-total_class = input("Enter the total number of classes held:\n")
-attend_class = input("Enter the total number of classes attended:\n")
+# user input prompt
+total_classes = input("Enter the total number of classes:\n")
+attended_classes = input("Enter the number of classes attended:\n")
 
-# User input empty
-if len(total_class) == 0 or len(attend_class) == 0:
+# if user input is empty
+if len(total_classes) == 0 or len(attended_classes) == 0:
+    lines()
+    if len(total_classes) == 0:
+        print("User input --> Total number of classes field is empty")
+    if len(attended_classes) == 0:
+        print("User input --> Number of classes attended field is empty")
+
+# user iput is not empty
+# validate user input i.e. must be an integer value
+# validattion passed, calculate the attendance %
+else:
+    if not total_classes.isdigit() or not attended_classes.isdigit():
         lines()
-        if len(total_class) == 0:
-                print("User input --> Total number of classes field is empty")
-        if len(attend_class) == 0:
-                print("User input --> Number of class attended field is empty")
+        if not total_classes.isdigit():
+            print("Total number of classes field must contain only integer values")
+        if not attended_classes.isdigit():
+            print("Number of classes attended field must contain only integer values")
 
-# If user input not empty
-# Validation check -- user input contain only numeric values
-# Convert inputs to integers
-# Calculate attendance percentage and print eligiblity messages
-elif len(total_class) > 0 and len(attend_class) > 0:
+    else:
+        total_classes, attended_classes = float(total_classes), float(attended_classes)
+        attendance = ( attended_classes / total_classes ) * 100
+
         lines()
-        if not total_class.isdigit() or not attend_class.isdigit():
-                if not total_class.isdigit():
-                        print("Total number of classes held field must contain only numeric values")
-                if not attend_class.isdigit():
-                        print("Total number of classes attended field must contain only numeric values")
-        elif total_class.isdigit() and attend_class.isdigit():
-                total_class = int(total_class)
-                attend_class = int(attend_class)
-
-                lines
-                if attend_class > total_class:
-                        print("Number of class attended cannot be greater than number of class held")
-                elif attend_class == total_class or attend_class <= total_class:
-                        attendance_percentage = ( attend_class / total_class ) * 100
-                        if attendance_percentage >= 75:
-                                print(f"Number of classes held --> {total_class}")
-                                print(f"Number of classes attended --> {attend_class}")
-                                print(f"Attendance percentage --> {attendance_percentage:.2f}")
-                                print("You are eligible for writing the exam")
-                        elif attendance_percentage >= 65 and attendance_percentage <= 74:
-                                print(f"Number of classes held --> {total_class}")
-                                print(f"Number of classes attended --> {attend_class}")
-                                print(f"Attendance percentage --> {attendance_percentage:.2f}")
-                                print("Percentage low -- but can be improved")
-                        elif attendance_percentage <= 64:
-                                print(f"Number of classes held --> {total_class}")
-                                print(f"Number of classes attended --> {attend_class}")
-                                print(f"Attendance percentage --> {attendance_percentage:.2f}")
-                                print("Contact principal")
+        if total_classes >= attended_classes:
+            print(f"Total number of classes --> {int(total_classes)}")
+            print(f"Number of classes attended--> {int(attended_classes)}")
+            if attendance >= 75:
+                print(f"Attendance percentage --> {attendance:.2f}")
+            if attendance >= 60 and attendance <=74:
+                print(f"Attendance percentage --> {attendance:.2f}")
+                print(f"Be careful")
+            if attendance >= 0 and attendance <= 59 :
+                print(f"Attendance percentage --> {attendance:.2f}")
+                print(f"Contact princial")
+        else:
+            print(f"Total number of classes cannot be greater than number of classes attended")
