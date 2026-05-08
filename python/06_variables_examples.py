@@ -1,33 +1,32 @@
 #!/usr/bin/python
-# Description -- Basic program for budget calculator 
-# Add all the expenses and subtract from the total income and at the end display savings
-def lines():
-    print("*"*75)
 
-# Prompt user input
-total_income = float(input("Enter the total income\n"))
-rent_cost = float(input("Enter the rent cost\n"))
-groceries_cost = float(input("Enter the groceries cost\n"))
-transport_cost = float(input("Enter the transport cost\n"))
-utilities_cost = float(input("Enter the Utilities cost such as water, electrcicity and phone bill\n"))
-extra_cost = float(input("Enter the extra cost\n"))
+# basic program for variables 
+# budget calculator 
 
-# Add all the expense
-total_expenses = rent_cost + groceries_cost + transport_cost + utilities_cost + extra_cost
-# Subtract total income - total expense
-savings = total_income - total_expenses
+# input from user 
+savings = float(input("Enter the amount in savings: \n"))
+rent_cost = float(input("Enter the rent cost: \n"))
+groceries_cost = float(input("Enter the groceries cost: \n"))
+transport_cost = float(input("Enter the transport cost: \n"))
+utilities_cost = float(input("Enter the utilities cost: \n"))
+extra_cost = float(input("Enter the extra cost, if any: \n"))
 
-# Display user input
-lines()
-print(f"Total income -- {total_income}")
-print(f"Rent cost -- {rent_cost}")
-print(f"Groceries cost -- {groceries_cost}")
-print(f"Transport cost -- {transport_cost}")
-print(f"Utilities cost -- {utilities_cost}")
-print(f"Extra cost -- {extra_cost}")
-# Display total expenses and savings
-print(f"Total expenses -- {total_expenses:.2f}")
-print(f"Savings -- {savings:.2f}")
+# calculate the total expenses 
+total_cost = rent_cost + groceries_cost + transport_cost + utilities_cost + extra_cost
+remaining_amount = savings - total_cost
+
+# display output 
+print("*"*75)
+print(f"Savings --> {savings}")
+print(f"Rent --> {rent_cost}")
+print(f"Groceries --> {groceries_cost}")
+print(f"Transport --> {transport_cost}")
+print(f"Utilities --> {utilities_cost}")
+print(f"Extra cost --> {extra_cost}")
+print("*"*75)
+
+print(f"Total expenses this month --> {total_cost}")
+print(f"Remaining amount --> {remaining_amount:.2f}")
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # This script converts: 1) Celsius to Fahrenheit 2) Fahrenheit to Celsius
