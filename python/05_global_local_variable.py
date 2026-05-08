@@ -1,39 +1,47 @@
-# ------------------------------------------------------------
-# Program: Demonstrate Local vs Global Variables in Python
-# ------------------------------------------------------------
 #!/usr/bin/python
 
-number_1 = 10
+# Basic program to understand the different between global vs local variable 
 
+# variable
+num_1 = 10
+
+# function 
+# global variable 
 def global_variable():
-    global number_1
-    number_1 = 20
-    print(f"Value of number within the function -- > {number_1}")
+        global num_1
+        num_1 = 20
+        print(f"Within the function, value of num_1 is {num_1}")
 
-
-
-print("**********Global variable example**********")
-print(f"Value of number before the function called -- > {number_1}")
+# output
+print("*"*50)
+print(f"Before the function called, value of num_1 is {num_1}")
 global_variable()
-print(f"Value of number After the function called -- > {number_1}")
+print(f"After the function called, value of num_1 is {num_1}")
 
-#**********Global variable example**********
-# Value of number before the function called -- > 10
-# Value of number within the function -- > 20
-# Value of number After the function called -- > 20
-#**********Global variable example**********
-number_2 = 100
+########################################################################################
+################## PROGRAM OUTPUT ###############################
+#Before the function called, value of num_1 is 10
+#Within the function, value of num_1 is 20
+#After the function called, value of num_1 is 20
 
+########################################################################################
+print("*"*50)
+# variable
+# local variable 
+num_2 = 20
+
+# function
+# local variable 
 def local_variable():
-    number_2 = 200
-    print(f"Value of number within the function -- > {number_2}")
+        num_2 = 30
+        print(f"Within the function, value of num_2 is {num_2}")
 
-print("**********Global variable example**********")
-print(f"Value of number before the function called -- > {number_2}")
+print(f"Before the function called, value of num_2 is {num_2}")
 local_variable()
-print(f"Value of number after the function called -- > {number_2}")
-#**********Local variable example**********
-# Value of number before the function called -- > 100
-# Value of number within the function -- > 200
-# Value of number after the function called -- > 100
-#**********Local variable example**********
+print(f"After the function called, value of num_2 is {num_2}")
+
+########################################################################################
+################## PROGRAM OUTPUT ###############################
+Before the function called, value of num_2 is 20
+Within the function, value of num_2 is 30
+After the function called, value of num_2 is 20
