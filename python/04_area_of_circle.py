@@ -1,25 +1,22 @@
 #!/usr/bin/python
 
-# Description -- Very basic program to calculate the area of the circle
+# Description -- Very basic program to calculate the area of the circle using constant
 
-# Function 
-def lines():
-    print("*"*75)
+#!/usr/bin/python
 
-# Prompt user input to enter the radius of the circle
-radius = float(input("Enter the radius of the circle\n"))
+# user input 
+radius = float(input("Enter the radius of the circle:\n"))
 
-# PI --> Constant and the value must not be changed
+# constant 
 PI = 3.14
-# Formulae to calculate area of circle
+
+# formulae to calculate area of circle
 area_of_circle = PI * radius * radius
 
-lines()
-# Display radius and area of circle
+# display the area of circle
 print(f"Radius of the circle --> {radius}")
-print(f"Area of the circle --> {area_of_circle}")
-# Rounding off to 2 decimal 
-print(f"Area of the circle --> {area_of_circle:.2f}")
+print(f"Area of circle --> {area_of_circle}")
+print(f"Area of circle --> {area_of_circle:.2f}")
 
 --------------------------------------------------------------------------------------------------------
 #!/usr/bin/python
