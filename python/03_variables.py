@@ -1,27 +1,25 @@
+#!/usr/bin/python
 
-# --------------------------------------------------
-# Single variable assignment
-# --------------------------------------------------
-movie_name = "Harry potter"
-lucky_number = 10
-decimal_number = 15.5
+### Variables ######
+name = "Hrishi Ghosalkar"
+lucky_number = 8
+decimal_lucky_number = 8.8
 
-print(f"Movie name -- {movie_name}")
-print(f"Lucky number -- {lucky_number}")
-print(f"Decimal number -- {decimal_number}")
+# print is a python inbuilt function used to display text
+# f -- formatted string 
+print(f"Your name is {name}")
+print(f"Lucky number {lucky_number}")
+print(f"Decimal Lucky number {decimal_lucky_number}")
 
+# Multiple variables and assigning them each a value in a single line
+print ("*"*50)
+num_1, num_2, num_3 = 10, 20, 30
+print(f"Number 1 is {num_1}")
+print(f"Number 2 is {num_2}")
+print(f"Number 3 is {num_3}")
 
-# --------------------------------------------------
-# Create multiple variables in a single statement
-# --------------------------------------------------
-number_1, number_2, number_3 = 10, 20, 30
-print(f"Number 1 -- {number_1}")
-print(f"Number 2 -- {number_2}")
-print(f"Number 3 -- {number_3}")
-
-# --------------------------------------------------
-# Assigning the same value to multiple variables at once
-# --------------------------------------------------
-number_4 = number_5 = 40
-print(f"Number 3 -- {number_4}")
-print(f"Number 3 -- {number_5}")
+print ("*"*50)
+num_4 = num_5 = num_6 = 40
+print(f"Number 4 is {num_4}")
+print(f"Number 5 is {num_5}")
+print(f"Number 6 is {num_6}")
