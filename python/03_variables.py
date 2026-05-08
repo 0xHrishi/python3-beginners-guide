@@ -12,7 +12,7 @@ print(f"Decimal number -- {decimal_number}")
 
 
 # --------------------------------------------------
-# Assigning multiple variables in a single statement
+# Create multiple variables in a single statement
 # --------------------------------------------------
 number_1, number_2, number_3 = 10, 20, 30
 print(f"Number 1 -- {number_1}")
