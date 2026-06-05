@@ -1,25 +1,29 @@
-#!/usr/bin/python
-
-### Variables ######
-name = "Hrishi Ghosalkar"
+# Variables
+movie_name = "Harry Potter"
 lucky_number = 8
-decimal_lucky_number = 8.8
+decimal_number = 10.5
 
-# print is a python inbuilt function used to display text
-# f -- formatted string 
-print(f"Your name is {name}")
-print(f"Lucky number {lucky_number}")
-print(f"Decimal Lucky number {decimal_lucky_number}")
+#print is a inbuilt function used to display text
+print("Movie name is ", movie_name)
+print("Lucky number is ", lucky_number)
+print("Decimal number is ", decimal_number)
 
-# Multiple variables and assigning them each a value in a single line
-print ("*"*50)
-num_1, num_2, num_3 = 10, 20, 30
-print(f"Number 1 is {num_1}")
-print(f"Number 2 is {num_2}")
-print(f"Number 3 is {num_3}")
+print("")
+# formatted strings 
+print(f"Move name is {movie_name}")
+print(f"Lucky number is {lucky_number}")
+print(f"Decimal number is {decimal_number}")
 
-print ("*"*50)
-num_4 = num_5 = num_6 = 40
-print(f"Number 4 is {num_4}")
-print(f"Number 5 is {num_5}")
-print(f"Number 6 is {num_6}")
+print(f"")
+# Multiple variables
+number_1, number_2, number_3 = 10, 20, 30
+
+print(f"Number 1 is {number_1}")
+print(f"Number 2 is {number_2}")
+print(f"Number 3 is {number_3}")
+
+print("")
+number_5 = number_6 = 100
+
+print(f"Number 5 is {number_5}")
+print(f"Number 6 is {number_6}")
