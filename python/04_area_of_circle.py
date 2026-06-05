@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Description -- Very basic program to calculate the area of the circle using constant
+# Description -- Very basic program to calculate the area of the circle
 
 #!/usr/bin/python
 
@@ -10,7 +10,7 @@ radius = float(input("Enter the radius of the circle:\n"))
 # constant 
 PI = 3.14
 
-# formulae to calculate area of circle
+# calculate area of circle
 area_of_circle = PI * radius * radius
 
 # display the area of circle
