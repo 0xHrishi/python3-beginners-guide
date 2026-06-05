@@ -1,5 +1,3 @@
-#Print is a function used to display text
-
 #Single line comment --> Using hash symbol
 print("Single line comments")
 
